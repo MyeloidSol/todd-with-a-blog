@@ -20,19 +20,23 @@
 
 title: Todd with a Blog
 email: 
-description: >- 
+description: >-
+  Hello, this is my blog
   
-baseurl: "todd-with-a-blog" # the subpath of your site, e.g. /blog
+baseurl: "/todd-with-a-blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: MyeloidSol
 
 # Build settings
-theme: minima
+remote_theme: jekyll/minima
+
+minima:
+  skin: dark
+
 plugins:
   - jekyll-feed
-
-
+  - jekyll-remote-theme
 
 defaults:
   -
