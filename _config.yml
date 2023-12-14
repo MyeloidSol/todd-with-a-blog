@@ -33,10 +33,6 @@ plugins:
   - jekyll-feed
 
 
-kramdown:
-    math_engine: katex
-
-
 defaults:
   -
     scope:
