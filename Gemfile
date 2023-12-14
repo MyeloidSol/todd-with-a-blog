@@ -36,6 +36,6 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "jekyll-sass-converter", "~> 2.0"
 
 # math tex package
-group :jekyll_plugins do
-  gem 'jekyll-spaceship'
-end
+#group :jekyll_plugins do
+#  gem 'jekyll-spaceship'
+#end
