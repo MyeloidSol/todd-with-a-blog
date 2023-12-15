@@ -2,4 +2,4 @@
 layout: home
 ---
 
-Always thinking about the data generating process.
+Always thinking about the data generating process...
