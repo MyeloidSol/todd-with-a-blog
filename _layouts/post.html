@@ -31,6 +31,8 @@ layout: base
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
+    {% include toc.html html=content %}
+    <br>
     {{ content }}
   </div>
 
