@@ -52,15 +52,13 @@ and the compounds have an additive effect on plant height ---but
 how can you apply this information when everything has been discretized?
 
 The solution is to think about how the data was generated. 
-There was some continuous variable(plant height) that followed all of 
+There was some continuous random variable(plant height) that followed all of 
 the rules above. Only later was it grouped into discrete bins, so if 
-we were to visualize the transformation of the continuous variable to 
-a discrete one, it would look something like this:
+we were to visualize the variable before the 
 
-{:refdef: style="text-align: center;"}
-![image](assets/the_problem_f1.png){:height="440px", width="330px"}
-{: refdef}
-
+<div style="text-align: center;">
+  <iframe src="assets/the_problem_f1.html" width="700" height="400"></iframe>
+</div>
 
 
 {% highlight stan %}
